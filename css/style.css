@@ -89,7 +89,7 @@ nav.stroke ul li a {
   position: relative;
   transition: all .5s;
 }
-nav.stroke ul li a:after {
+nav.stroke ul li:not(:last-child) a:after {
   position: absolute;
   bottom: -25%;
   left: 0;
